@@ -1,0 +1,12 @@
+<app-reader-layout
+  [icon]="faBook"
+  [parent]="{ url: 'glossary', label: 'Glossaire' }"
+  [title]="word ?? ''"
+>
+  <app-progress [displaySavePosition]="true"></app-progress>
+
+  <p>Notes :</p>
+  @for (note of notes; track $index) {
+  <div>{{ note.content }}</div>
+  }
+</app-reader-layout>
