@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/ff7e-reader/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
