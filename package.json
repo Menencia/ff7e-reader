@@ -41,7 +41,7 @@
     "@angular/build": "^20.3.4",
     "@angular/cli": "^20.3.4",
     "@angular/compiler-cli": "^20.3.0",
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.2.5",
     "@types/howler": "^2.2.12",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.9.0",
